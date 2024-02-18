@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "./components/transitionProvider";
-import Script from "next/script";
+
+import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,23 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-42501330-3"
-        />
-
-        <Script id="google-analytics">
-          {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', UA-42501330-3"});
-  `}
-        </Script>
-      </head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
+        <GoogleAnalytics gaId="G-LHF8EJL2YY" />
       </body>
     </html>
   );
