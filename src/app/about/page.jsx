@@ -42,15 +42,14 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              Highly skilled software developer with over 5 years of experience
+              in front-end development. Proven ability to work with a variety of
+              technologies including React, GoJS, Redux, and Node.js. Strong
+              understanding of best practices in testing, code clarity, and
+              sound design principles. Passionate about learning and mastering
+              new technologies.
             </p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -218,20 +217,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Software Developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
-                  </div>
+                  <div className="p-3 text-sm italic"> </div>
+                  Developing the front-end of an electronic parts ide using GoJS
+                  and React technology
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                  <div className="p-2 text-red-400 text-sm font-semibold">
+                    Mar 2021 - Dec 2023
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Techsafe Solutions
                   </div>
                 </div>
                 {/* CENTER */}
@@ -261,20 +259,20 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    Software Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development,
-                    leveraging advanced skills.{" "}
+                    Developed front-end of a network log collection software
+                    using React
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    Jan 2020 - Nov 2020
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    As Siber Güvenlik/Armis Bilisim
                   </div>
                 </div>
               </div>
@@ -284,16 +282,16 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
+                    Veryona, Toronto
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I provided web solutions, applying a range of technologies
-                    to address client requirements.{" "}
+                    Worked on a variety of projects including mobile and web
+                    applications
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
+                    Apr 2015 - Jan2017
                   </div>
                 </div>
                 {/* CENTER */}
@@ -306,6 +304,72 @@ const AboutPage = () => {
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 "></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Software Developer
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic"> </div>
+                  Developing job search and recruitment software using Ruby on
+                  Rails
+                  {/* JOB DATE */}
+                  <div className="p-2 text-red-400 text-sm font-semibold">
+                    Jul 2014 - Oct 2014
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    Greatest Hire Inc, Oakville,
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Software Developer
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">
+                  Accomplished REST backend for mobile app connection.
+                  Helped lead developer in designing backend and frontend components using
+                  Symfony2 and AngularJS 
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    May 2014 - July 2014
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    Zindustree, Toronto, 
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>
