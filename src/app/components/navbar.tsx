@@ -69,12 +69,12 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4">
         <Link href="https://github.com/ayhanbasmisirli">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
