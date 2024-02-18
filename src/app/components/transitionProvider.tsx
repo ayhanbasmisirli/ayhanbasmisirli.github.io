@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
-const TransitionProvider = ({ children }) => {
+const TransitionProvider = ({ children }: any) => {
   const pathName = usePathname();
 
   return (
